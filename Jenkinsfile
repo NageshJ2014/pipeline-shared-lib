@@ -11,7 +11,7 @@ pipeline {
             }
         }        
     }
-     post { 
+     /* post { 
         success { 
             echo 'I will always say Hello again!'
             sh '''
@@ -21,5 +21,5 @@ pipeline {
   -d "{\"state\": \"success\",\"context\": \"continuous-integration/jenkins\", \"description\": \"Jenkins\", \"target_url\": \"http://ec2-52-90-63-31.compute-1.amazonaws.com:8080/job/Learning/job/pipeline-webhook-git/$BUILD_NUMBER/console\"}"
 '''
         }
-    } 
+    } */
 }
