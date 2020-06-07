@@ -7,5 +7,10 @@ pipeline {
             echo "This Should Trigger Build"
             }
         }
+        post { 
+        success { 
+            echo 'I will always say Hello again!'
+        }
+    }
     }
 }
