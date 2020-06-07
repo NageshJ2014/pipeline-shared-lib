@@ -6,11 +6,11 @@ pipeline {
             echo "Working as expected"
             echo "This Should Trigger Build"
             }
-        }
-        post { 
+        }        
+    }
+    post { 
         success { 
             echo 'I will always say Hello again!'
         }
-    }
     }
 }
