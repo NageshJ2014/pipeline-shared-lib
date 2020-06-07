@@ -5,7 +5,7 @@ pipeline {
             steps{
             echo "Working as expected"
             echo "This Should Trigger Build"
-                echo "SHOULD PULL NOW"
+                
             
             
             }
